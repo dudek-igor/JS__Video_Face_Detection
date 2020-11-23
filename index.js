@@ -2,12 +2,12 @@ const video = document.getElementById('video');
 const error = document.getElementById('error');
 
 Promise.all([
-  faceapi.loadSsdMobilenetv1Model('/models'),
-  faceapi.loadTinyFaceDetectorModel('/models'),
-  faceapi.loadFaceLandmarkModel('/models'),
-  faceapi.loadFaceLandmarkTinyModel('/models'),
-  faceapi.loadFaceRecognitionModel('/models'),
-  faceapi.loadFaceExpressionModel('/models'),
+  faceapi.loadSsdMobilenetv1Model('./models'),
+  faceapi.loadTinyFaceDetectorModel('./models'),
+  faceapi.loadFaceLandmarkModel('./models'),
+  faceapi.loadFaceLandmarkTinyModel('./models'),
+  faceapi.loadFaceRecognitionModel('./models'),
+  faceapi.loadFaceExpressionModel('./models'),
 ]).then(startVideo);
 
 async function startVideo() {
