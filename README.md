@@ -1,5 +1,5 @@
 # Video Face Detection
 
-1. Clone Repo
-2. Open in VSCode
-3. Start a liveserver
+[Link](https://dudek-igor.github.io/JS__Video_Face_Detection/)
+
+[face-api.js](https://github.com/justadudewhohacks/face-api.js/)
